@@ -1,0 +1,12 @@
+{
+  "name": "Breve Commitizen",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/schlich/devcontainer-features/starship:0.1.5": {},
+    "ghcr.io/nikobockerman/devcontainer-features/poetry-persistent-cache:1": {}
+  },
+  "postCreateCommand": "poetry install",
+  "remoteUser": "vscode"
+}
